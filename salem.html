@@ -1,0 +1,246 @@
+﻿<html>
+<head>
+  <title>Proyecto</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Presentacion de proyecto"/>
+  <meta name="google-site-verification" content="MIuItj5VWgkVwyqJ_OrvxZd6tnA9nmpjv_wFJomcE9o" />
+  <meta name="msvalidate.01" content="664224CE015967AD1C06C1435B2B12C5" />
+  
+  <meta name="msapplication-TileImage" content="favicons/icon-hires.png" />
+  <meta name="msapplication-TileColor" content="#000" />
+  
+  <meta name="theme-color" content="#000">
+  
+  <link rel="shortcut icon" href="favicons/apple-icon-57x57.png">
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="StyleSheet" href="estilos.css" type="text/css">
+  
+
+</head>
+<body class="p-0">
+    
+    <div class="turnDeviceNotification"></div>
+ 
+<div id="carga" class="loader"></div>
+
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<script src="funciones.js"></script>
+
+
+<div class="estilotarjetas position-relative overflow-hidden" id="pantalla">
+       
+<nav class="navbar navbar-expand-sm navbar-dark fixed-top" style="background-color:#0005;z-index:99">
+    <!-- logo -->
+    <div class="navbar-brand textoh4" style="color:#fffd">
+        Proyecto
+    </div>
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#opciones" id="botnav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <!-- enlaces -->
+    <div class="collapse navbar-collapse justify-content-end textoh5" id="opciones">   
+      <ul class="navbar-nav text-center">
+        <li class="nav-item px-3 w-100 mx-2" onClick="ir_a('inicio')">
+          <a class="nav-link" href="#">INICIO</a>
+        </li>
+        <li class="nav-item px-3 w-100 mx-2" onClick="ir_a('nosotros')">
+          <a class="nav-link" href="#">EQUIPO</a>
+        </li>
+        <li class="nav-item px-3 w-100 mx-2" onClick="ir_a('proceso')">
+          <a class="nav-link" href="#">OBJETIVO</a>
+        </li>
+        <li class="nav-item px-3 w-100 mx-2" onClick="ir_a('aliados')">
+          <a class="nav-link" href="#">CONTENIDO</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+    
+<div class="container-fluid px-0 estilotarjetas position-absolute" style="overflow-y:auto;bottom:0%;" id="pantallaY">
+    
+ <div class="container-fluid d-table hcontenedor text-center flex-column px-0" id="inicio">
+  <div class="d-table-cell align-middle fondo-centro-fixed" style="background-image:url(img/inicio.jpg);">
+	<div class="d-flex h-100 justify-content-around flex-column position-relative">
+	    <div class="position-absolute w-100 h-100" style="background-color:#0006"></div>
+	    <div class="texto-150" style="z-index:9">
+	        <div class="textosombra textoh1">Proyecto<br>Academia</div>
+	    </div>
+    </div>
+  </div>
+ </div>
+    
+ <div class="container-fluid d-table hcontenedor text-center flex-column px-0 fondo-centro" id="nosotros" style="background-image:url(img/foca.jpg);">
+    <div class="row m-0">
+      <div class="d-table-cell hcontenedor align-middle col-sm-6 order-sm-1 p-0" style="background-color:#0005">
+    	<div class="d-flex h-100 justify-content-around flex-column position-relative">
+    	    <div class="px-md-5 container texto-120" style="z-index:9;color: #fff;">
+    	        <div class="textoh1 textosombramd">EQUIPO</div>
+              <div class="mx-auto" style="width: fit-content;">
+                <div class="textoh4 textosombrasm d-flex align-items-center py-1 my-1">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16"><path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z"/><path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z"/></svg>
+                  <span class="pl-2">RODAS GONZALES, Arturo David</span>
+                </div>
+                <div class="textoh4 textosombrasm d-flex align-items-center py-1 my-1">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16"><path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z"/><path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z"/></svg>
+                  <span class="pl-2">PARDAVÉ TINEO, Thony Jerson</span>
+                </div>
+                <div class="textoh4 textosombrasm d-flex align-items-center py-1 my-1">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16"><path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z"/><path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z"/></svg>
+                  <span class="pl-2">GASPAR ROJAS, Alexandro</span>
+                </div>
+                <div class="textoh4 textosombrasm d-flex align-items-center py-1 my-1">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16"><path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z"/><path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z"/></svg>
+                  <span class="pl-2">DONATO NIÑO, Manuel Alejandro</span>
+                </div>
+                <div class="textoh4 textosombrasm d-flex align-items-center py-1 my-1">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16"><path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z"/><path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z"/></svg>
+                  <span class="pl-2">TRUJILLO ACOSTA, Princesa</span>
+                </div>
+              </div>
+    	    </div>
+        </div>
+      </div>
+    </div>
+ </div>
+    
+ <div class="container-fluid d-table hcontenedor text-center flex-column px-0" id="proceso" style="background-color:#f3f3f3">
+ 
+    <div class="centrar-xy h-100">
+      <div class="d-table-cell align-middle px-5">
+      <div class="d-flex h-100 justify-content-around flex-column position-relative pt-5">
+          <div class="container" style="z-index:9;color:#aaa">
+              <div class="textoh1 centrar-xy pb-5">OBJETIVO
+                <div class="pl-3 centrar-xy"><svg xmlns="http://www.w3.org/2000/svg" width="1.3em" height="1.3em" fill="currentColor" class="bi bi-bullseye pb-2" viewBox="0 0 16 16"><path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/><path d="M8 13A5 5 0 1 1 8 3a5 5 0 0 1 0 10zm0 1A6 6 0 1 0 8 2a6 6 0 0 0 0 12z"/><path d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8z"/><path d="M9.5 8a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/></svg></div></div>
+              <div class="textoh3 text-justify">Queremos que este proyecto esté destinado a la buena y eficaz administración de centros académicos, con la mira de hacer más sencillo el manejo de este. En estos tiempos los sistemas automatizados toman cada vez más fuerza y cada vez son más complejos llevándo a que la intervención del ser humano sea mínimo y solo en lo necesario, por ejemplo, juicio y toma de decisiones importantes, por eso queremos automatizar y sistematizar, todo lo que esté dentro de las posibilidades, las acciones que día a día se llevan a cabo en una academia, de esta forma agilizar cualquier trámite o regular mejor todo el centro educativo.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+ </div>
+    
+ <div class="container-fluid d-table hcontenedor text-center flex-column px-0 fondo-centro" id="aliados" style="background-image:url(img/aliados.jpg);">
+    <div class="m-0">
+      <div class="hcontenedor align-middle p-0 w-100" style="background-color:#0007">
+    	<div class="d-flex h-100 justify-content-around flex-column position-relative">
+    	    <div class="px-md-5 container" style="z-index:9;color:#fff">
+    	        <div class="textoh1 textosombramd pb-5">CONTENIDO</div>
+              <div class="row m-0">
+                <div class="mx-auto col-sm-6" style="width: fit-content;">
+                  <div class="textoh4 textosombrasm d-flex align-items-center py-1 my-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16"><path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z"/><path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z"/></svg>
+                    <span class="pl-2">Sistema de login</span>
+                  </div>
+                  <div class="textoh4 textosombrasm d-flex align-items-center py-1 my-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16"><path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z"/><path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z"/></svg>
+                    <span class="pl-2">Sistema de niveles de autoridad</span>
+                  </div>
+                  <div class="textoh4 textosombrasm d-flex align-items-center py-1 my-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16"><path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z"/><path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z"/></svg>
+                    <span class="pl-2">Sistema para alumnos de fácil manejo</span>
+                  </div>
+                  <div class="textoh4 textosombrasm d-flex align-items-center py-1 my-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16"><path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z"/><path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z"/></svg>
+                    <span class="pl-2">Sistema de notas compartido</span>
+                  </div>
+                  <div class="textoh4 textosombrasm d-flex align-items-center py-1 my-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16"><path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z"/><path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z"/></svg>
+                    <span class="pl-2">Control de asistencia virtual y autónomo</span>
+                  </div>
+                  <div class="textoh4 textosombrasm d-flex align-items-center py-1 my-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16"><path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z"/><path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z"/></svg>
+                    <span class="pl-2">Control de matrículas y pagos</span>
+                  </div>
+                  <div class="textoh4 textosombrasm d-flex align-items-center py-1 my-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16"><path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z"/><path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z"/></svg>
+                    <span class="pl-2">Control de trabajos pendientes</span>
+                  </div>
+                  <div class="textoh4 textosombrasm d-flex align-items-center py-1 my-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16"><path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z"/><path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z"/></svg>
+                    <span class="pl-2">Control de asistencia para maestros</span>
+                  </div>
+                  <div class="textoh4 textosombrasm d-flex align-items-center py-1 my-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16"><path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z"/><path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z"/></svg>
+                    <span class="pl-2">Control de horario en maestros</span>
+                  </div>
+                  <div class="textoh4 textosombrasm d-flex align-items-center py-1 my-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16"><path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z"/><path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z"/></svg>
+                    <span class="pl-2">Control de pagos para el personal</span>
+                  </div>
+                  <div class="textoh4 textosombrasm d-flex align-items-center py-1 my-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16"><path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z"/><path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z"/></svg>
+                    <span class="pl-2">Sistema opcional de recompensas</span>
+                  </div>
+                </div>
+                <div class="mx-auto col-sm-6" style="width: fit-content;">
+                  <div class="textoh4 textosombrasm d-flex align-items-center py-1 my-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16"><path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z"/><path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z"/></svg>
+                    <span class="pl-2">Base de datos compartida</span>
+                  </div>
+                  <div class="textoh4 textosombrasm d-flex align-items-center py-1 my-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16"><path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z"/><path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z"/></svg>
+                    <span class="pl-2">Performance visual para Pc y Movil</span>
+                  </div>
+                  <div class="textoh4 textosombrasm d-flex align-items-center py-1 my-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16"><path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z"/><path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z"/></svg>
+                    <span class="pl-2">Cuadros estadísticos</span>
+                  </div>
+                  <div class="textoh4 textosombrasm d-flex align-items-center py-1 my-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16"><path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z"/><path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z"/></svg>
+                    <span class="pl-2">Alarmas sobre temas pendientes</span>
+                  </div>
+                  <div class="textoh4 textosombrasm d-flex align-items-center py-1 my-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16"><path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z"/><path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z"/></svg>
+                    <span class="pl-2">Servicio al cliente</span>
+                  </div>
+                  <div class="textoh4 textosombrasm d-flex align-items-center py-1 my-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16"><path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z"/><path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z"/></svg>
+                    <span class="pl-2">Redirección a whatsapp y gmail</span>
+                  </div>
+                  <div class="textoh4 textosombrasm d-flex align-items-center py-1 my-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16"><path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z"/><path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z"/></svg>
+                    <span class="pl-2">Actualización en tiempo real</span>
+                  </div>
+                  <div class="textoh4 textosombrasm d-flex align-items-center py-1 my-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16"><path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z"/><path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z"/></svg>
+                    <span class="pl-2">Sistema compartido para sucursales</span>
+                  </div>
+                  <div class="textoh4 textosombrasm d-flex align-items-center py-1 my-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16"><path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z"/><path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z"/></svg>
+                    <span class="pl-2">Manejo de inventario</span>
+                  </div>
+                  <div class="textoh4 textosombrasm d-flex align-items-center py-1 my-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16"><path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z"/><path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z"/></svg>
+                    <span class="pl-2">Tabla de egresos e ingresos</span>
+                  </div>
+                  <div class="textoh4 textosombrasm d-flex align-items-center py-1 my-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16"><path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z"/><path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z"/></svg>
+                    <span class="pl-2">Y mucho más!</span>
+                  </div>
+                </div>
+              </div>
+    	    </div>
+        </div>
+      </div>
+    </div>
+ </div>
+    
+</div>
+ 
+</div>
+    
+
+</div>
+
+
+</body>
+</html>
